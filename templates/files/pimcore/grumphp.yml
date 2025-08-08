@@ -1,2 +1,5 @@
 imports:
   - resource: 'vendor/youwe/testing-suite/config/pimcore/grumphp.yml'
+
+parameters:
+    phpstan.level: 6 # See https://phpstan.org/user-guide/rule-levels - this is the same level as Pimcore uses internally
