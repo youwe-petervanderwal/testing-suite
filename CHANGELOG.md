@@ -4,6 +4,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.0.6]
+### Fixed
+- Deny composer versions with known CVE's. If your project or bundle is auto-selecting a wrong version (due to nested)
+  dependencies, then this can be resolved with `composer require --dev youwe/testing-suite:^3.0.6`.
+
 ## [3.0.5]
 ### Changed
 - Magento phpmd.xml loosened some rules to be more inline with what is 'normal' in Magento.
