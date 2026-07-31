@@ -4,11 +4,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased]
+## [3.1.1]
 ### Fixed
 - Magento 2 `phpmd.xml` incorrectly overrode `CouplingBetweenObjects`: the design ruleset was included twice, causing
   the check to run with conflicting maximum values. The original rule is now excluded so the custom override (20)
   takes effect.
+- PHPMD 3.x-dev requires a different commandline argument notation than the 2.x version. GrumPHP does not support this
+  new notation (yet). This has been resolved by using a wrapper script to rewrite the argument notation if PHPMD 3 is
+  installed.
 
 ## [3.1.0]
 ### Added
