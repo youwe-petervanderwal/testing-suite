@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [3.1.2]
+### Fixed
+- `Failed to locate the main schema resource at 'https://pmd.sourceforge.io/ruleset_xml_schema.xsd'` for php 8.3 and 8.4)
+
+### Changed
+- Update phpmd schema files to 2.0.0 (to match testing-suite's own requirements).
+
 ## [3.1.1]
 ### Fixed
 - Magento 2 `phpmd.xml` incorrectly overrode `CouplingBetweenObjects`: the design ruleset was included twice, causing

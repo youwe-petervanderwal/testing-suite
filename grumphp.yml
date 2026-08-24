@@ -4,11 +4,11 @@ imports:
 parameters:
   composer.strict: false
   xmllint.ignore_patterns:
-    - /^phpcs.xml$/
-    - /^phpmd.xml$/
-    - /^phpunit.xml$/
-    - /^pdepend.xml$/
-    - /^templates/
+    - /phpcs\.xml$/
+    - /phpmd\.xml$/
+    - /phpunit\.xml$/
+    - /pdepend\.xml$/
+    - /templates/
 
   # Disable requirement for Jira ticket number in the commit message
   git_commit_message.jira_matcher: '/.*/'
