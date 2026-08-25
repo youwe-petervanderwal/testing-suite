@@ -6,9 +6,9 @@ includes:
 
 parameters:
   paths:
-    - web
-
-    # Add any other project folder containing source files, e.g.
+    # Uncomment / add folders containing the source files, e.g:
+    # - src
+    # - web
     # - tests
 
   excludePaths:
